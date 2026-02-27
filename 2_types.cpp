@@ -2,6 +2,19 @@
 #include <string>  // For std::string [web:1]
 
 using namespace std;  // Avoids std:: prefix (good for labs, debate scope later).
+int substract(int a, int b){
+    int result;
+    result = a - b;
+    return result;
+}
+
+int add(int a, int b){
+    int result;
+    result = a + b;
+    return result;
+}
+
+int 
 
 int main() {
     // Primitives: size matters (int: 4B, char:1B, float:4B) [web:3]
@@ -22,6 +35,7 @@ int main() {
 
     // int a, b; cout << "Enter two ints: "; cin >> a >> b;
     // cout << "Sum: " << (a + b) << ", Prod: " << (a * b) << endl;
+
 
     return 0;
 }
